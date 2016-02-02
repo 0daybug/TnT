@@ -5,11 +5,11 @@ import smtplib
 from email.mime.multipart import MIMEMultipart#python2.4及之前版本该模块不是这样调用的，而是email.MIMEMultipart.MIMEMultipart(),下同
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
-sender = 'bluespeedsky@sina.com'#发件人地址
-receiver = 'bluespeedsky@kindle.cn'#收件人地址
+sender = '*********@sina.com'#发件人地址
+receiver = '********@kindle.com'#收件人地址
 smtpserver = 'smtp.sina.com'#邮件服务器
-username = 'bluespeedsky@sina.com'#用户名
-password = 'dna19921027#@boy'#密码
+username = '**********'#用户名
+password = '**********'#密码
 smtp = smtplib.SMTP()
 
 def send_email(msg,file_name):
